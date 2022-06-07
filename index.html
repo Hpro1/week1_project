@@ -1,16 +1,50 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
 
-<head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-</head>
+  <body>
+    <div id="app"></div>
+    <h1>Hello World!</h1>
 
-<body>
-	<div id="app"></div>
+    <table>
+      <tr>
+        <th style="border-width: 1px; border-style: solid;">Name</th>
+        <th style="border-width: 1px; border-style: solid;">Price</th>
+      </tr>
+      <tr>
+        <td style="border-width: 1px; border-style: solid;">Spaghetti</td>
+        <td style="border-width: 1px; border-style: solid;">12,00€</td>
+      </tr>
+      <tr>
+        <td style="border-width: 1px; border-style: solid;">Pizza</td>
+        <td style="border-width: 1px; border-style: solid;">15,00€</td>
+      </tr>
+      <tr>
+        <td style="border-width: 1px; border-style: solid;">Pasta</td>
+        <td style="border-width: 1px; border-style: solid;">8,99€</td>
+      </tr>
+      <tr>
+        <td style="border-width: 1px; border-style: solid;">Hamburger</td>
+        <td style="border-width: 1px; border-style: solid;">10,00€</td>
+      </tr>
+      <tr>
+        <td style="border-width: 1px; border-style: solid;">Fish soup</td>
+        <td style="border-width: 1px; border-style: solid;">6,99€</td>
+      </tr>
+    </table>
 
-	<script src="src/index.js">
-	</script>
-</body>
+    <br />
 
+    <textarea id="input"></textarea>
+    <button id="add-comment">Add comment</button>
+
+    <ul id="list"></ul>
+
+    <button id="remove-comments">Delete all</button>
+
+    <script src="src/index.js"></script>
+  </body>
 </html>
