@@ -8,6 +8,13 @@ document.getElementById("add-comment").onclick = function () {
 };
 
 document.getElementById("remove-comments").onclick = function () {
-  document.getElementById("list").innerHTML = "";
-  window.confirm("Are you sure you want to delete all the comments?");
+  let text = window.confirm(
+    "Are you sure you want to delete all the comments?"
+  );
+
+  if (text == true) {
+    document.getElementById("list").innerHTML = "";
+  } else {
+    text = "Request cancelled.";
+  }
 };
